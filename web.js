@@ -6,7 +6,7 @@ function onRequest(req, res) {
     var pathname = url.parse(req.url).pathname;
     console.log("Request for " + pathname + " received.");
     res.writeHead(200, "Content-type : plain/text");
-/*    fs.readFile('index.html', function(err, contents){
+    fs.readFile('index.html', function(err, contents){
         if (err) {
             console.log(err);
             throw err; 
@@ -14,7 +14,7 @@ function onRequest(req, res) {
                 res.write(contents,'utf8');
                 res.end();
                 }
-    });*/
+    });
     res.write("WAZZUP NIGGAZ");
     res.end();
   }
