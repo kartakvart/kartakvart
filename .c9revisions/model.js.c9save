@@ -1,0 +1,2 @@
+{"ts":1368104839829,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1368105187613,"patch":[[{"diffs":[[1,"var mongoose = require('mongoose').Mongoose;\r\n\r\nmongoose.model('Document', {\r\n  properties: ['title', 'data', 'tags'],\r\n\r\n  indexes: [\r\n    'title'\r\n  ]\r\n});\r\n\r\nexports.Document = function(db) {\r\n  return db.model('Document');\r\n};"]],"start1":0,"start2":0,"length1":0,"length2":230}]],"length":230,"saved":false}
