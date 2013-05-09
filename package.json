@@ -1,6 +1,9 @@
 {
   "name": "kartakvart",
   "version": "0.0.3",
+  "scripts": { 
+      "start": "node index.js" 
+      },
   "engines": {
     "node": "0.10.5",
     "npm":  "1.2.18"
