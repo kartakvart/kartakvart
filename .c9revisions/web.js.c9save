@@ -1,0 +1,2 @@
+{"ts":1368090655514,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1368090684751,"patch":[[{"diffs":[[1,"var http = require(\"http\");\n\nhttp.createServer(function(req, res) {\n    res.writeHead(200, \"Content-type : plain/text\");\n    res.write(\"Wazzup guys, this is nodepad\");\n    res.end();\n}).listen(process.env.PORT, process.env.IP);"]],"start1":0,"start2":0,"length1":0,"length2":227}]],"length":227,"saved":false}
