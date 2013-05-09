@@ -11,7 +11,6 @@ function onRequest(req, res) {
             console.log(err);
             throw err; 
             }  else {
-                console.log(contents);
                 res.write(contents,'utf8');
                 res.end();
                 }
