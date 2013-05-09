@@ -15,8 +15,6 @@ function onRequest(req, res) {
                 res.end();
                 }
     });
-    res.write("WAZZUP NIGGAZ");
-    res.end();
   }
 
   http.createServer(onRequest).listen(process.env.PORT);
