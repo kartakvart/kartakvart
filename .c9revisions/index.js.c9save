@@ -1,2 +1,5 @@
 {"ts":1368105078272,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
 {"contributors":[],"silentsave":false,"ts":1368105184651,"patch":[[{"diffs":[[1,"var web = require(\"./web\");\nweb.start();"]],"start1":0,"start2":0,"length1":0,"length2":40}]],"length":40,"saved":false}
+{"ts":1368107407055,"patch":[[{"diffs":[[0,"/web\");\n"],[1,"\n"],[0,"web.star"]],"start1":20,"start2":20,"length1":16,"length2":17}]],"length":41,"saved":false}
+{"ts":1368107427176,"patch":[[{"diffs":[[0,"web\");\n\n"],[1,"web."],[0,"web.star"]],"start1":21,"start2":21,"length1":16,"length2":20}]],"length":45,"saved":false}
+{"ts":1368107604453,"patch":[[{"diffs":[[0,"var "],[-1,"web"],[1,"server"],[0," = requi"]],"start1":0,"start2":0,"length1":15,"length2":18},{"diffs":[[0,"(\"./"],[-1,"web\");\n\nweb.web"],[1,"server\");\n\nserver"],[0,".sta"]],"start1":20,"start2":20,"length1":23,"length2":25}]],"length":50,"saved":false}

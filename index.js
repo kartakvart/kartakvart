@@ -1,2 +1,3 @@
-var web = require("./web");
-web.start();
+var server = require("./server");
+
+server.start();
